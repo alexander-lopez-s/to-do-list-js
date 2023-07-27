@@ -1,26 +1,27 @@
-# Image gallery
+# To do list application
 
-> A simple
+> An application capable of tracking activities, deleting them and modifying them.
 
 ## Table of contents
 
-- [General info](#general-info)
-- [Screenshots](#screenshots)
-- [Technologies](#technologies)
-- [Setup](#setup)
-- [Features](#features)
-- [Status](#status)
-- [Inspiration](#inspiration)
-- [Contact](#contact)
+- [To do list application](#to-do-list-application)
+  - [Table of contents](#table-of-contents)
+  - [General info](#general-info)
+  - [Screenshots](#screenshots)
+  - [Technologies](#technologies)
+  - [Setup](#setup)
+  - [Code Examples](#code-examples)
+  - [Features](#features)
+  - [Status](#status)
 
 ## General info
 
 > The objective of the project is to practice separation of concern in
-> JavaScript.
+> JavaScript by implementing a To-do list app.
 
 ## Screenshots
 
-![Example screenshot](./assets/screenShot.png)
+
 
 ## Technologies
 

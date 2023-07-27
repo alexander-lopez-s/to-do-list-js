@@ -4,7 +4,7 @@ Some boundaries around this project.
 
 ## External
 
-- Project Deadline: The project must be completed and launched by Friday 28th, 2023.
+- Project Deadline: The project must be completed and launched by Friday July 28th, 2023.
 
 ## Internal: Involuntary
 

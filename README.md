@@ -45,14 +45,15 @@ clone the repo and start using the stop watch.
 
 List of features ready and Todos for future development
 
--
--
--
+- In progress
+- In progress
+- In progress
 
 To-do list:
 
--
--
+- Add tasks
+- Edit tasks
+- Delete tasks
 
 ## Status
 

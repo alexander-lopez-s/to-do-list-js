@@ -21,6 +21,7 @@
 
 ## Screenshots
 
+![wireframe](./planning/wireframe.png)
 
 
 ## Technologies

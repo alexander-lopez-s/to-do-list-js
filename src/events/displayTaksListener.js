@@ -6,5 +6,8 @@ import dom from "../dom.js";
        const createList = getTask ();
        dom.tasksContainer.append(createList)
        dom.inputField.value = '';
+       if(dom.addButton.innerText === 'Save'){
+        dom.addButton.innerText = 'Add';
+    }
    } 
    )

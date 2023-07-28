@@ -46,14 +46,8 @@ const getTask = () => {
     const paragraphElement = parentDiv.querySelector("p");
     dom.inputField.focus(); 
     dom.addButton.innerText = "Save";
-    dom.addButton.className = "save";
-    const hasAClass = dom.addButton.classList.contains('save');
-       if(hasAClass){
-        parentDiv.remove();
-        dom.inputField.value = paragraphElement.innerText; 
-        dom.addButton.innerText = "add";
-       } 
-    
+    parentDiv.remove();
+    dom.inputField.value = paragraphElement.innerText;  
     });
 
 

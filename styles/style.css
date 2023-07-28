@@ -1,12 +1,169 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
 
 body {
-    background-color: #5a5353;
-    color: whitesmoke;
+    font-family: 'Borel', cursive;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: auto;
+    width: 500px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-bottom: 20px;
+}
+
+.user-photo {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.user-photo img {
+    width: 180px;
+    height: 120px;
+}
+
+.user-photo h1 {
+    font-size: 23px;
+    padding: 5px;
+    margin: 0px;
+    background-color: rgb(243, 227, 7);
+    color: rgb(28, 32, 30);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 170px;
+    border-radius: 5px;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/** Style the dates **/
+
+.week-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.week-container p {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    background-color: rgb(101, 133, 236);
+    border-radius: 50%;
+    font-size: 24px;
+}
+
+.week-container p:hover {
+    cursor: pointer;
+}
+
+.today {
+    background-color: rgb(45, 173, 94) !important;
+}
+
+.today:hover {
+    background-color: rgb(133, 16, 230) !important;
+}
+
+.input-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    background-color: white;
+}
+
+button {
+    width: 60px;
+    background-color: rgb(45, 173, 94); 
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.tasks-container {
+    margin-top: 20px;
+}
+
+.tasks-container h2 {
+    margin-left: 50px;
+    color: blue;
+    font-size: 25px;
+}
+
+
+/** Styling the list ***/
+
+.list-item {
+    display: grid;
+    grid-template-columns: 40px 250px 70px 70px; 
+    align-items: center;
+    margin-left: 20px;
+    align-content: center;
+
+}
+
+.list-item input {
+    width: 20px;
+    height: 20px;
+}
+
+.list-item p {
+    font-size: 20px;
+    justify-content: center;
+    margin: 0px;
+    padding-top: 10px;
+    
+}
+
+.delete-btn {
+    width: 60px;
+    background-color: rgb(255, 148, 116); 
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.modify-btn {
+    width: 60px;
+    background-color: rgb(47, 174, 248); 
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+
+.marked {
+    text-decoration: line-through rgb(236, 145, 145);
 }

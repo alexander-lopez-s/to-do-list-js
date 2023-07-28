@@ -38,16 +38,20 @@ clone the repo and start using the stop watch.
 ## Code Examples
 
 ```js
+import displayDatesHandler from "../handlers/displayDatesHandler.js";
 
+const displayDatesListener = () => {
+    window.addEventListener('load', displayDatesHandler);
+}
+
+export default displayDatesListener;
 ```
 
 ## Features
 
 List of features ready and Todos for future development
 
-- In progress
-- In progress
-- In progress
+- Organize tasks according to dates
 
 To-do list:
 
@@ -57,4 +61,4 @@ To-do list:
 
 ## Status
 
-Project is: _in progress_
+Project is: _Completed_
